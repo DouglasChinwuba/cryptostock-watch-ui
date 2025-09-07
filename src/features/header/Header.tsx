@@ -1,9 +1,13 @@
-function Header(){
-    return(
-        <header>
+import './Header.css'
 
-        </header>
-    )
+function Header(){
+  return(
+    <header>
+      <button className='sign-in-button'>
+        Sign in
+      </button>
+    </header>
+  )
 }
 
 export default Header
